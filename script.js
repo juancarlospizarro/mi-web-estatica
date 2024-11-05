@@ -14,3 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
+document.getElementByClassName('boton').onclick = function(){
+    alert('No se puede acceder al contenido de momento.');
+}
